@@ -1,0 +1,21 @@
+# Configuration with live credentials — keep out of version control
+config.php
+
+# Logs
+*.log
+error_log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies (if you add Composer later)
+vendor/
+composer.lock
