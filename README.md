@@ -186,7 +186,6 @@ fail on its first query with a driver error.
 | `schema.sql` | Creates the database and the `messages` table |
 | `style.css` | Warm, minimal styling for the board |
 | `nginx-parlor.conf` | nginx server block configuration for production |
-| `DEPLOY.md` | Step-by-step deployment guide with nginx and PHP-FPM |
 
 ## Getting started
 
@@ -197,10 +196,6 @@ php -S localhost:8000
 ```
 
 Then import `schema.sql` into MySQL and set your credentials in `config.php`.
-
-**For production:**
-
-See [`DEPLOY.md`](DEPLOY.md) for a full nginx + PHP-FPM setup guide.
 
 ## GitHub setup
 
