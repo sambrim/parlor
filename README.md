@@ -389,12 +389,3 @@ These are fine for a small board and worth revisiting if it grows.
   pool, and it will throttle everyone behind a shared NAT.
 - **No moderation UI.** Deleting a message means running SQL.
 - **No edit, delete, or reply.** Messages are append-only.
-
-## Ideas for later
-
-- CSS (the markup is waiting: `#messages`, `#composer`, `#status`, and `li` with
-  `time` / `strong` / `span` children)
-- Server-Sent Events instead of polling
-- An admin page behind HTTP basic auth for deleting messages and banning IPs
-- Multiple rooms via a `room` column and `?room=` parameter
-- A "N people typing" indicator
