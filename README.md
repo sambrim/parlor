@@ -19,7 +19,7 @@ warmth — it reads like a real room where people gather to chat.
 
 Pick the section for your platform, then skip to [Setup](#setup). If you'd
 rather not install anything system-wide, jump to
-[Docker](#docker-any-platform) — it's the fastest route to a working board.
+[Docker](#docker-any-platform) - it's the fastest route to a working board.
 
 ### Ubuntu 26.04
 
